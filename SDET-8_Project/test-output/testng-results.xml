@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="3" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-12-28T05:57:17Z" name="Suite" finished-at="2020-12-28T05:59:26Z" duration-ms="129019">
+    <groups>
+      <group name="SmokeTest">
+        <method signature="CreateLeadtc_25.createLead()[pri:1, instance:com.comcast.Leadtest.CreateLeadtc_25@173ed316]" name="createLead" class="com.comcast.Leadtest.CreateLeadtc_25"/>
+        <method signature="CreateLeadtc_26.createLead()[pri:3, instance:com.comcast.Leadtest.CreateLeadtc_26@2d901eb0]" name="createLead" class="com.comcast.Leadtest.CreateLeadtc_26"/>
+        <method signature="CreateLeadtc_27.createLead()[pri:5, instance:com.comcast.Leadtest.CreateLeadtc_27@48075da3]" name="createLead" class="com.comcast.Leadtest.CreateLeadtc_27"/>
+      </group> <!-- SmokeTest -->
+      <group name="RegressionTest">
+        <method signature="convertLeadToOppurtunitytc_25.leadToOppurtunity()[pri:2, instance:com.comcast.Leadtest.convertLeadToOppurtunitytc_25@25ce9dc4]" name="leadToOppurtunity" class="com.comcast.Leadtest.convertLeadToOppurtunitytc_25"/>
+        <method signature="convertLeadToOppurtunitytc_26.leadToOppurtunity()[pri:4, instance:com.comcast.Leadtest.convertLeadToOppurtunitytc_26@3ba987b8]" name="leadToOppurtunity" class="com.comcast.Leadtest.convertLeadToOppurtunitytc_26"/>
+        <method signature="convertLeadToOppurtunitytc_27.leadToOppurtunity()[pri:6, instance:com.comcast.Leadtest.convertLeadToOppurtunitytc_27@68c9133c]" name="leadToOppurtunity" class="com.comcast.Leadtest.convertLeadToOppurtunitytc_27"/>
+      </group> <!-- RegressionTest -->
+    </groups>
+    <test started-at="2020-12-28T05:57:17Z" name="TestRunner-2" finished-at="2020-12-28T05:59:26Z" duration-ms="129019">
+      <class name="com.comcast.Leadtest.convertLeadToOppurtunitytc_26">
+        <test-method is-config="true" signature="configBeforeClass()[pri:0, instance:com.comcast.Leadtest.convertLeadToOppurtunitytc_26@3ba987b8]" started-at="2020-12-28T05:58:17Z" name="configBeforeClass" finished-at="2020-12-28T05:58:31Z" duration-ms="13797" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeClass -->
+        <test-method is-config="true" signature="cofigBeforeMtd()[pri:0, instance:com.comcast.Leadtest.convertLeadToOppurtunitytc_26@3ba987b8]" started-at="2020-12-28T05:58:31Z" name="cofigBeforeMtd" finished-at="2020-12-28T05:58:36Z" duration-ms="5386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cofigBeforeMtd -->
+        <test-method signature="leadToOppurtunity()[pri:4, instance:com.comcast.Leadtest.convertLeadToOppurtunitytc_26@3ba987b8]" started-at="2020-12-28T05:58:36Z" name="leadToOppurtunity" finished-at="2020-12-28T05:59:26Z" duration-ms="50288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- leadToOppurtunity -->
+      </class> <!-- com.comcast.Leadtest.convertLeadToOppurtunitytc_26 -->
+      <class name="com.comcast.Leadtest.CreateLeadtc_26">
+        <test-method is-config="true" signature="configBeforeClass()[pri:0, instance:com.comcast.Leadtest.CreateLeadtc_26@2d901eb0]" started-at="2020-12-28T05:57:17Z" name="configBeforeClass" finished-at="2020-12-28T05:57:34Z" duration-ms="16899" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeClass -->
+        <test-method is-config="true" signature="cofigBeforeMtd()[pri:0, instance:com.comcast.Leadtest.CreateLeadtc_26@2d901eb0]" started-at="2020-12-28T05:57:34Z" name="cofigBeforeMtd" finished-at="2020-12-28T05:57:40Z" duration-ms="5660" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cofigBeforeMtd -->
+        <test-method signature="createLead()[pri:3, instance:com.comcast.Leadtest.CreateLeadtc_26@2d901eb0]" started-at="2020-12-28T05:57:40Z" name="createLead" finished-at="2020-12-28T05:58:17Z" duration-ms="36935" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLead -->
+      </class> <!-- com.comcast.Leadtest.CreateLeadtc_26 -->
+    </test> <!-- TestRunner-2 -->
+  </suite> <!-- Suite -->
+</testng-results>

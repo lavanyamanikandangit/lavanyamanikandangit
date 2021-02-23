@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="3" parallel="tests" name="TestRunner-3(failed)">
+    <classes>
+      <class name="com.comcast.Leadtest.convertLeadToOppurtunitytc_27">
+        <methods>
+          <include name="configBeforeSuite"/>
+          <include name="cofigBeforeMtd"/>
+          <include name="configBeforeClass"/>
+          <include name="leadToOppurtunity"/>
+        </methods>
+      </class> <!-- com.comcast.Leadtest.convertLeadToOppurtunitytc_27 -->
+      <class name="com.comcast.Leadtest.CreateLeadtc_27">
+        <methods>
+          <include name="configBeforeSuite"/>
+          <include name="cofigBeforeMtd"/>
+          <include name="createLead"/>
+          <include name="configBeforeClass"/>
+        </methods>
+      </class> <!-- com.comcast.Leadtest.CreateLeadtc_27 -->
+    </classes>
+  </test> <!-- TestRunner-3(failed) -->
+  <test thread-count="3" parallel="tests" name="TestRunner-2(failed)">
+    <classes>
+      <class name="com.comcast.Leadtest.convertLeadToOppurtunitytc_26">
+        <methods>
+          <include name="configBeforeSuite"/>
+          <include name="cofigBeforeMtd"/>
+          <include name="configBeforeClass"/>
+          <include name="leadToOppurtunity"/>
+        </methods>
+      </class> <!-- com.comcast.Leadtest.convertLeadToOppurtunitytc_26 -->
+      <class name="com.comcast.Leadtest.CreateLeadtc_26">
+        <methods>
+          <include name="configBeforeSuite"/>
+          <include name="cofigBeforeMtd"/>
+          <include name="createLead"/>
+          <include name="configBeforeClass"/>
+        </methods>
+      </class> <!-- com.comcast.Leadtest.CreateLeadtc_26 -->
+    </classes>
+  </test> <!-- TestRunner-2(failed) -->
+  <test thread-count="3" parallel="tests" name="TestRunner-1(failed)">
+    <classes>
+      <class name="com.comcast.Leadtest.convertLeadToOppurtunitytc_25">
+        <methods>
+          <include name="configBeforeSuite"/>
+          <include name="cofigBeforeMtd"/>
+          <include name="configBeforeClass"/>
+          <include name="leadToOppurtunity"/>
+        </methods>
+      </class> <!-- com.comcast.Leadtest.convertLeadToOppurtunitytc_25 -->
+      <class name="com.comcast.Leadtest.CreateLeadtc_25">
+        <methods>
+          <include name="configBeforeSuite"/>
+          <include name="cofigBeforeMtd"/>
+          <include name="configBeforeClass"/>
+          <include name="createLead"/>
+        </methods>
+      </class> <!-- com.comcast.Leadtest.CreateLeadtc_25 -->
+    </classes>
+  </test> <!-- TestRunner-1(failed) -->
+</suite> <!-- Failed suite [Suite] -->
