@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Default testSTARTED]]>
+    </line>
+    <line>
+      <![CDATA[Login Page is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[createNewUser method STARTED]]>
+    </line>
+    <line>
+      <![CDATA[Home page is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[createNewUser method SUCCESS]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2020-12-26T10:17:26 IST" name="Default suite" finished-at="2020-12-26T10:18:09 IST" duration-ms="43371">
+    <groups>
+    </groups>
+    <test started-at="2020-12-26T10:17:26 IST" name="Default test" finished-at="2020-12-26T10:18:09 IST" duration-ms="43371">
+      <class name="com.actitime.users.CreateNewUserTest">
+        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:com.actitime.users.CreateNewUserTest@12e61fe6]" started-at="2020-12-26T10:17:26 IST" name="OpenBrowser" finished-at="2020-12-26T10:17:43 IST" duration-ms="16826" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login Page is Displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method signature="createNewUser()[pri:0, instance:com.actitime.users.CreateNewUserTest@12e61fe6]" started-at="2020-12-26T10:17:43 IST" name="createNewUser" finished-at="2020-12-26T10:17:58 IST" duration-ms="15575" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[createNewUser method STARTED]]>
+            </line>
+            <line>
+              <![CDATA[Home page is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[createNewUser method SUCCESS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createNewUser -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:com.actitime.users.CreateNewUserTest@12e61fe6]" started-at="2020-12-26T10:17:59 IST" name="CloseBrowser" finished-at="2020-12-26T10:18:09 IST" duration-ms="10888" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- com.actitime.users.CreateNewUserTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

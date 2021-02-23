@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;sampleProject.json&apos; to &apos;SDET-8-RestAssuredProject/src/test/java/com.rmgyantra.api.projecttest&apos;&#x0D;&#x0A;- Original project: &apos;SDET8_RestAssured&apos;&#x0D;&#x0A;- Destination element: &apos;SDET-8-RestAssuredProject/src/test/java/com.rmgyantra.api.projecttest&apos;&#x0D;&#x0A;- Original element: &apos;sampleProject.json&apos;" description="Copy file" destination="=SDET-8-RestAssuredProject/src\/test\/java=/optional=/true=/=/maven.pomderived=/true=/=/test=/true=/&lt;com.rmgyantra.api.projecttest" element1="SDET_8_RestAssuredProject/sampleProject.json" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1609413646638" units="0" version="1.0"/>
+</session>

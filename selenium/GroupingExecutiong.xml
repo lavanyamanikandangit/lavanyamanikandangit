@@ -1,0 +1,21 @@
+<suite name="Suite">
+  <test  name="Test">
+  <groups>
+  <define name="All groups">
+  <include name="SmokeGrp"></include>
+  <include name="FT Grp"></include>
+  <include name="IT Grp"></include>
+  <include name="ST Grp"></include>
+  </define>
+  
+  <run>
+  <include name="All groups"></include>
+  <exclude name="SmokeGrp"></exclude>
+  </run>
+  </groups>
+  
+    <classes>
+      <class name="testNG.GroupingExecution"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

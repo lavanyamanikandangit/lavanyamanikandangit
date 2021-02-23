@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-12-29T21:56:07 IST" name="Default suite" finished-at="2020-12-29T21:56:08 IST" duration-ms="483">
+    <groups>
+    </groups>
+    <test started-at="2020-12-29T21:56:07 IST" name="Default test" finished-at="2020-12-29T21:56:08 IST" duration-ms="483">
+      <class name="com.qspiders.unittest.Studenttest">
+        <test-method signature="unittest()[pri:0, instance:com.qspiders.unittest.Studenttest@3c72f59f]" started-at="2020-12-29T21:56:08 IST" name="unittest" finished-at="2020-12-29T21:56:08 IST" duration-ms="413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unittest -->
+      </class> <!-- com.qspiders.unittest.Studenttest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

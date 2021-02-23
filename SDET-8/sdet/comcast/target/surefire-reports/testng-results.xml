@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-12-23T05:07:02Z" name="Command line suite" finished-at="2020-12-23T05:07:02Z" duration-ms="79">
+    <groups>
+      <group name="smoke test">
+        <method signature="AccountTest.createAccountTest()[pri:0, instance:com.comcast.AccountTestt.AccountTest@51e2adc7]" name="createAccountTest" class="com.comcast.AccountTestt.AccountTest"/>
+        <method signature="contactTest.createContactTest()[pri:0, instance:com.comcast.ContactTest.contactTest@1a8a8f7c]" name="createContactTest" class="com.comcast.ContactTest.contactTest"/>
+      </group> <!-- smoke test -->
+      <group name="regression test">
+        <method signature="AccountTest.modifyAccountTest()[pri:0, instance:com.comcast.AccountTestt.AccountTest@51e2adc7]" name="modifyAccountTest" class="com.comcast.AccountTestt.AccountTest"/>
+        <method signature="contactTest.modifyContactTest()[pri:0, instance:com.comcast.ContactTest.contactTest@1a8a8f7c]" name="modifyContactTest" class="com.comcast.ContactTest.contactTest"/>
+      </group> <!-- regression test -->
+    </groups>
+    <test started-at="2020-12-23T05:07:02Z" name="Command line test" finished-at="2020-12-23T05:07:02Z" duration-ms="79">
+      <class name="com.comcast.AccountTestt.AccountTest">
+        <test-method signature="createAccountTest()[pri:0, instance:com.comcast.AccountTestt.AccountTest@51e2adc7]" started-at="2020-12-23T05:07:02Z" name="createAccountTest" finished-at="2020-12-23T05:07:02Z" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccountTest -->
+        <test-method signature="modifyAccountTest()[pri:0, instance:com.comcast.AccountTestt.AccountTest@51e2adc7]" started-at="2020-12-23T05:07:02Z" name="modifyAccountTest" finished-at="2020-12-23T05:07:02Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifyAccountTest -->
+      </class> <!-- com.comcast.AccountTestt.AccountTest -->
+      <class name="com.comcast.ContactTest.contactTest">
+        <test-method signature="createContactTest()[pri:0, instance:com.comcast.ContactTest.contactTest@1a8a8f7c]" started-at="2020-12-23T05:07:02Z" name="createContactTest" finished-at="2020-12-23T05:07:02Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContactTest -->
+        <test-method signature="modifyContactTest()[pri:0, instance:com.comcast.ContactTest.contactTest@1a8a8f7c]" started-at="2020-12-23T05:07:02Z" name="modifyContactTest" finished-at="2020-12-23T05:07:02Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifyContactTest -->
+      </class> <!-- com.comcast.ContactTest.contactTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

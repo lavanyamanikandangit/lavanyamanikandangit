@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\lavan\Desktop\foodyhive"/>
+			<item value="C:\Users\lavan\eclipse-workspace\SDET-8\sdet\SDET_8_RestAssuredProject\pom.xml"/>
+			<item value="C:\Users\lavan\SDET8\SDET-8_Project"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="foodhive"/>
+			<item value="test.com"/>
+			<item value="foodyhive"/>
+			<item value="SDET-8-RestAssuredProject.com"/>
+			<item value="SDET_8_RestAssuredProject.com"/>
+			<item value="Qspiders"/>
+			<item value="comcast.com"/>
+			<item value="githubandGit"/>
+			<item value="github"/>
+			<item value="LavanSdet-1"/>
+			<item value="lavansdet"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="foodhive"/>
+			<item value="test.com"/>
+			<item value="foodyhive"/>
+			<item value="SDET-8-RestAssuredProject"/>
+			<item value="SDET-8-RestAssuredProject.com"/>
+			<item value="SDET_8_RestAssuredProject"/>
+			<item value="Qspiders"/>
+			<item value="comcast"/>
+			<item value="githubandgit"/>
+			<item value="github"/>
+			<item value="LavanSdet-1"/>
+			<item value="lavansdet"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
+		<item key="width" value="480"/>
+		<item key="height" value="667"/>
+		<item key="x" value="720"/>
+		<item key="y" value="71"/>
+	</section>
+</section>

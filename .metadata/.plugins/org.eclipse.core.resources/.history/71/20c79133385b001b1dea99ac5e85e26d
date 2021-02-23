@@ -1,0 +1,76 @@
+package advanceSeleniumQsp;
+
+import java.util.List;
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+public class FlipkartAddCart {
+
+
+	public static void main(String[] args) throws InterruptedException 
+	{
+		WebDriver driver=null;
+		System.setProperty("webdriver.chrome.driver","./driver/chromedriver.exe");
+		driver=new ChromeDriver();
+		
+		driver.manage().window().maximize();
+		driver.get("https://www.flipkart.com/");
+		driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
+		driver.findElement(By.xpath("//button[text()='✕']")).click();
+		WebElement sear = driver.findElement(By.name("q"));
+		sear.sendKeys("laptops");
+		
+		 
+		List<WebElement> all = driver.findElements(By.xpath("//li"));
+		System.out.println("Total number of selected options: "+ all.size());
+		Thread.sleep(2000);
+		for(WebElement option:all) 
+			{
+				System.out.println(option.getText());
+			}	
+		all.get(0).click();
+		Thread.sleep(500);
+		driver.findElement((By.xpath("//div[@class='_3uDYxP']/descendant::select[@class='_2YxCDZ']/option[4]"))).click(); 
+		Thread.sleep(500);
+		driver.findElement(By.xpath("//div[@title='Core i3']")).click();
+		Thread.sleep(1000);
+		driver.findElement(By.xpath("//div[@title='Dell']")).click();
+		Thread.sleep(1000);
+		driver.findElement(By.xpath("//div[contains(text(),'Operating System')]")).click();
+		Thread.sleep(1000);
+		driver.findElement(By.xpath("//div[@title='Windows 10']")).click();
+		
+		Thread.sleep(2000);
+		WebElement price1 = driver.findElement(By.xpath("//div[text()='Dell Vostro Core i3 10th Gen - (4 GB/1 TB HDD/Windows 10 Home) Vostro 3401 Thin and Light Laptop']/ancestor::div[@class='_3pLy-c row']//div[@class='_30jeq3 _1_WHN1']"));
+		Thread.sleep(2000);
+		price1.click();
+		System.out.println("Price of the selected Laptop is :"+price1.getText());
+		
+		Thread.sleep(2000);
+		driver.findElement(By.xpath("//div[@class='_24N3im']")).click();
+//		Thread.sleep(2000);
+//		driver.findElement(By.xpath("//form[@class='N79-rD']")).click();
+//		sendKeys("600114");
+//		pin.sendKeys("600114");
+		Thread.sleep(2000);
+	
+//		driver.findElement(By.xpath("//span[text()='Check']")).click();
+//		Thread.sleep(2000);
+//		driver.findElement(By.xpath("//button[@class='_2KpZ6l _2U9uOA _3v1-ww']")).click();
+//		driver.close();
+//		driver.quit();
+	}
+	}
+	
+	
+	
+
+
+

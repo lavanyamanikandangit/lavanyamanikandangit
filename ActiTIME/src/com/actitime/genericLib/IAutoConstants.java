@@ -1,0 +1,17 @@
+package com.actitime.genericLib;
+/**
+ * This interface used to store all automation framework contents
+ * @author lavan
+ *
+ */
+public interface IAutoConstants {
+	String CHROME_KEY="webdriver.chrome.driver";
+	String CHROME_VALUE="./driver/chromedriver.exe";
+	
+	String GECKO_KEY="webdriver.gecko.driver";
+	String GECKO_VALUE="./driver/geckodriver.exe";
+	
+	String PROP_PATH="./data/config.properties";
+	String EXCEL_PATH="./data/inputData.xlsx";
+	
+}
