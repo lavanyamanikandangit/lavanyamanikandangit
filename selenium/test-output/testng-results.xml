@@ -2,30 +2,116 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[TestSTARTED]]>
+      <![CDATA[Default testSTARTED]]>
     </line>
     <line>
-      <![CDATA[CreateCustomer method STARTED]]>
+      <![CDATA[loginTest method STARTED]]>
     </line>
     <line>
-      <![CDATA[CreateCustomer method FAILED]]>
+      <![CDATA[loginTest method FAILED]]>
     </line>
   </reporter-output>
-  <suite started-at="2020-12-02T13:06:44 IST" name="Suite" finished-at="2020-12-02T13:06:44 IST" duration-ms="179">
+  <suite started-at="2021-03-23T14:47:21 IST" name="Default suite" finished-at="2021-03-23T14:47:25 IST" duration-ms="3885">
     <groups>
     </groups>
-    <test started-at="2020-12-02T13:06:44 IST" name="Test" finished-at="2020-12-02T13:06:44 IST" duration-ms="179">
-      <class name="hybrid.CreateCustomerTest">
-        <test-method signature="CreateCustomer()[pri:0, instance:hybrid.CreateCustomerTest@56de5251]" started-at="2020-12-02T13:06:44 IST" name="CreateCustomer" finished-at="2020-12-02T13:06:44 IST" duration-ms="21" status="FAIL">
-          <exception class="java.lang.AssertionError">
+    <test started-at="2021-03-23T14:47:21 IST" name="Default test" finished-at="2021-03-23T14:47:25 IST" duration-ms="3885">
+      <class name="hybrid.ValidLoginTest">
+        <test-method signature="loginTest()[pri:0, instance:hybrid.ValidLoginTest@5dd6264]" started-at="2021-03-23T14:47:21 IST" name="loginTest" finished-at="2021-03-23T14:47:25 IST" duration-ms="3725" status="FAIL">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
-              <![CDATA[null]]>
+              <![CDATA[session not created: This version of ChromeDriver only supports Chrome version 86
+Current browser version is 89.0.4389.90 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAVANLAPTOP', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+Ordinal0 [0x012AC013+3194899]
+Ordinal0 [0x01196021+2056225]
+Ordinal0 [0x0102F608+587272]
+Ordinal0 [0x00FB1BF3+72691]
+Ordinal0 [0x00FAE229+57897]
+Ordinal0 [0x00FAC64A+50762]
+Ordinal0 [0x00FD1EE9+204521]
+Ordinal0 [0x00FD1D0D+204045]
+Ordinal0 [0x00FCFC1B+195611]
+Ordinal0 [0x00FB3B7F+80767]
+Ordinal0 [0x00FB4B4E+84814]
+Ordinal0 [0x00FB4AD9+84697]
+Ordinal0 [0x011ACE64+2149988]
+GetHandleVerifier [0x0141BE95+1400773]
+GetHandleVerifier [0x0141BB61+1399953]
+GetHandleVerifier [0x014231FA+1430314]
+GetHandleVerifier [0x0141C69F+1402831]
+Ordinal0 [0x011A3D61+2112865]
+Ordinal0 [0x011AE5CB+2155979]
+Ordinal0 [0x011AE6F5+2156277]
+Ordinal0 [0x011BF26E+2224750]
+BaseThreadInitThunk [0x74F6FA29+25]
+RtlGetAppContainerNamedObjectPath [0x77107C7E+286]
+RtlGetAppContainerNamedObjectPath [0x77107C4E+238]
+]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: null
-at org.testng.Assert.fail(Assert.java:99)
-at org.testng.Assert.fail(Assert.java:106)
-at hybrid.CreateCustomerTest.CreateCustomer(CreateCustomerTest.java:15)
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 86
+Current browser version is 89.0.4389.90 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAVANLAPTOP', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+Ordinal0 [0x012AC013+3194899]
+Ordinal0 [0x01196021+2056225]
+Ordinal0 [0x0102F608+587272]
+Ordinal0 [0x00FB1BF3+72691]
+Ordinal0 [0x00FAE229+57897]
+Ordinal0 [0x00FAC64A+50762]
+Ordinal0 [0x00FD1EE9+204521]
+Ordinal0 [0x00FD1D0D+204045]
+Ordinal0 [0x00FCFC1B+195611]
+Ordinal0 [0x00FB3B7F+80767]
+Ordinal0 [0x00FB4B4E+84814]
+Ordinal0 [0x00FB4AD9+84697]
+Ordinal0 [0x011ACE64+2149988]
+GetHandleVerifier [0x0141BE95+1400773]
+GetHandleVerifier [0x0141BB61+1399953]
+GetHandleVerifier [0x014231FA+1430314]
+GetHandleVerifier [0x0141C69F+1402831]
+Ordinal0 [0x011A3D61+2112865]
+Ordinal0 [0x011AE5CB+2155979]
+Ordinal0 [0x011AE6F5+2156277]
+Ordinal0 [0x011BF26E+2224750]
+BaseThreadInitThunk [0x74F6FA29+25]
+RtlGetAppContainerNamedObjectPath [0x77107C7E+286]
+RtlGetAppContainerNamedObjectPath [0x77107C4E+238]
+
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
+at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+at hybrid.BaseTest.OpenBrowser(BaseTest.java:21)
+at hybrid.ValidLoginTest.loginTest(ValidLoginTest.java:14)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -56,17 +142,17 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
             <line>
-              <![CDATA[CreateCustomer method STARTED]]>
+              <![CDATA[loginTest method STARTED]]>
             </line>
             <line>
-              <![CDATA[CreateCustomer method FAILED]]>
+              <![CDATA[loginTest method FAILED]]>
             </line>
           </reporter-output>
-        </test-method> <!-- CreateCustomer -->
-      </class> <!-- hybrid.CreateCustomerTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- loginTest -->
+      </class> <!-- hybrid.ValidLoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
